@@ -19,13 +19,15 @@
             <a [routerLink]="['/home/newbalance']" routerLinkActive="router-link-active">NEW BALANCE
                 <img width="32px" src="assets/images/newbalance.png" alt="">
             </a>
-
-            <div class="ui icon input">
-                <input type="text" placeholder="ძებნა..." [formControl]='queryCtrnl'>
-                <i class="inverted circular search link icon"></i>
-            </div>
         </div>
+        <div class="menu2">
+        <div class="ui search icon input">
+            <input class="prompt" type="text" placeholder="ძებნა..." [formControl]='queryCtrnl'>
+            <i class="inverted circular search link icon"></i>
+          </div>
+          </div>
 
     </div>
     <div>
+        
         <router-outlet></router-outlet>
