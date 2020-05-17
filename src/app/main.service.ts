@@ -14,5 +14,10 @@ export class MainService {
   fetchAllProducts(): Observable<any> {
        return this.httpClient.get('assets/data/all.json');
   };
-
+  fetchNikeProducts(): Observable<any> {
+      return this.httpClient.get('assets/data/nike.json');
+  };
+  fetchAdidasProducts(): Observable<any>{
+      return this.httpClient.get('assets/data/adidas.json');
+  };
 }

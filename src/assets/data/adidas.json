@@ -1,0 +1,74 @@
+[
+    {
+        "model": "Adidas Basketball Shoes",
+        "price": "185",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item1.jpg"
+    },
+    {
+        "model": "Adidas Nite Jogger",
+        "price": "345",
+        "year": "2020",
+        "path": "assets/images/items/adidas/item2.jpg"
+    },
+    {
+        "model": "Nite Jogger Sneakers",
+        "price": "240",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item3.jpg"
+    },
+    {
+        "model": "Fortarun X Running Shoes",
+        "price": "110",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item4.jpg"
+    },
+    {
+        "model": "Adidas Stan Smith",
+        "price": "235",
+        "year": "2020",
+        "path": "assets/images/items/adidas/item5.jpg"
+    },
+    {
+        "model": "HU Pharrell Human Race",
+        "price": "830",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item6.jpg"
+    },
+    {
+        "model": "Adidas D.O.N. Issue 1",
+        "price": "190",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item7.jpg"
+    },
+    {
+        "model": "White Mountaineering",
+        "price": "355",
+        "year": "2020",
+        "path": "assets/images/items/adidas/item8.jpg"
+    },
+    {
+        "model": "Pharell Williams V2",
+        "price": "950",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item9.jpg"
+    },
+    {
+        "model": "kids lite racer adapt",
+        "price": "150",
+        "year": "2020",
+        "path": "assets/images/items/adidas/item10.jpg"
+    },
+    {
+        "model": "Adidas Continental 80",
+        "price": "320",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item11.jpg"
+    },
+    {
+        "model": "Adidas Nite Jogger",
+        "price": "345",
+        "year": "2020",
+        "path": "assets/images/items/adidas/item12.jpg"
+    }
+]

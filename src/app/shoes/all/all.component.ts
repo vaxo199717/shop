@@ -26,7 +26,7 @@ export class AllComponent implements OnInit {
     this.mainService
         .fetchAllProducts()
         .pipe(
-          delay(2000)
+          delay(1000)
         )
         .subscribe(data => { this.isLoading = false; this.listOfBoots = data; this.data = data  });
 

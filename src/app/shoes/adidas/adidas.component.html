@@ -1,148 +1,35 @@
-<div class="item-container">
-    <div class="items">
-        <div class="item">
-            <img src="assets/images/items/adidas/item1.jpg" alt="">
-            <div class="description">
-                <h2>Adidas Basketball Shoes</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 185 ₾ &nbsp; წელი 2018</b></p>
+<div class="bg">
+    <ng-container *ngIf="isLoading">
+        <div class="ui segment">
+            <div class="ui active inverted dimmer">
+                <div class="ui large text loader">იტვირთება</div>
             </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
         </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item2.jpg" alt="">
-            <div class="description">
-                <h2>Adidas Nite Jogger</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 345 ₾ &nbsp; წელი 2020</b></p>
+    </ng-container>
+    <div class="container d-flex justify-content-around">
+        <div class="row ">
+            <div class=".col-6 .col-md-4 item" *ngFor="let boots of listOfBoots">
+                <img [src]="boots.path" class='image' alt="">
+                <div class="description">
+                    <h2 style="font-family: 'Fondamento', cursive; font-size: 21px;">{{ boots.model }}</h2>
+                    <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
+                        <b>ფასი {{ boots.price }} ₾ &nbsp; წელი {{ boots.year }} </b></p>
+                </div>
+                <div class="btns">
+                    <a href="" class="buy">ყიდვა</a>
+                    <a href="" class="tocart"><i class="cart plus icon"></i></a>
+                </div>
             </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item3.jpg" alt="">
-            <div class="description">
-                <h2>Nite Jogger Sneakers</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 240 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item4.jpg" alt="">
-            <div class="description">
-                <h2>Fortarun X Running Shoes</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 110 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item5.jpg" alt="">
-            <div class="description">
-                <h2>Adidas Stan Smith</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 235 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item6.jpg" alt="">
-            <div class="description">
-                <h2>HU Pharrell Human Race</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 830 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item7.jpg" alt="">
-            <div class="description">
-                <h2>Adidas D.O.N. Issue 1</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 190 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item8.jpg" alt="">
-            <div class="description">
-                <h2>White Mountaineering</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 355 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item9.jpg" alt="">
-            <div class="description">
-                <h2>Pharell Williams V2</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 950 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item10.jpg" alt="">
-            <div class="description">
-                <h2>kids lite racer adapt</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 150 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item11.jpg" alt="">
-            <div class="description">
-                <h2>Adidas Continental 80</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 320 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/adidas/item12.jpg" alt="">
-            <div class="description">
-                <h2>Adidas Nite Jogger</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 345 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
+
         </div>
     </div>
+
 </div>

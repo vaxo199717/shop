@@ -1,148 +1,35 @@
-<div class="item-container">
-    <div class="items">
-        <div class="item">
-            <img src="assets/images/items/nike/item1.jpg" alt="">
-            <div class="description">
-                <h2>Nike Air Max 200</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 360 ₾ &nbsp; წელი 2019</b></p>
+<div class="bg">
+    <ng-container *ngIf="isLoading">
+        <div class="ui segment">
+            <div class="ui active inverted dimmer">
+                <div class="ui large text loader">იტვირთება</div>
             </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
         </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item2.jpg" alt="">
-            <div class="description">
-                <h2>Nike Air Max 90</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 240 ₾ &nbsp; წელი 2019</b></p>
+    </ng-container>
+    <div class="container d-flex justify-content-around">
+        <div class="row ">
+            <div class=".col-6 .col-md-4 item" *ngFor="let boots of listOfBoots">
+                <img [src]="boots.path" class='image' alt="">
+                <div class="description">
+                    <h2 style="font-family: 'Fondamento', cursive; font-size: 21px;">{{ boots.model }}</h2>
+                    <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
+                        <b>ფასი {{ boots.price }} ₾ &nbsp; წელი {{ boots.year }} </b></p>
+                </div>
+                <div class="btns">
+                    <a href="" class="buy">ყიდვა</a>
+                    <a href="" class="tocart"><i class="cart plus icon"></i></a>
+                </div>
             </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item3.jpg" alt="">
-            <div class="description">
-                <h2>Nike Air Force 1'07</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 270 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item4.jpg" alt="">
-            <div class="description">
-                <h2>Nike Air Jordan 1</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 270 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item5.jpg" alt="">
-            <div class="description">
-                <h2>Nike Air More Uptempo</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 480 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item6.jpg" alt="">
-            <div class="description">
-                <h2>Nike Air Max 270 White</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 420 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item7.jpg" alt="">
-            <div class="description">
-                <h2>Air Max 97 Off-White</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 1250 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item8.jpg" alt="">
-            <div class="description">
-                <h2>nike wmns air max 270</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 350 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item9.jpg" alt="">
-            <div class="description">
-                <h2>Air Force 1'07 Grey</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 430 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item10.jpg" alt="">
-            <div class="description">
-                <h2>nike wmns air max 270</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 350 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item11.jpg" alt="">
-            <div class="description">
-                <h2>Nike Air Jordan 1 Retro</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 370 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/nike/item12.jpg" alt="">
-            <div class="description">
-                <h2>Air Force 1 Just Do It</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 195 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
+
         </div>
     </div>
+
 </div>
