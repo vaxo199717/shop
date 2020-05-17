@@ -35,8 +35,11 @@ export class ItemsComponent implements OnInit {
       [],
       {
         relativeTo: this.activatedRoute,
-        queryParams: { query },
+        queryParams: { query: query ? query : ''},
         queryParamsHandling: 'merge'
       });
   };
+  cleartext(){
+    this.queryCtrnl.reset()
+  }
 }
