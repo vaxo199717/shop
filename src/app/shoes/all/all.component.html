@@ -1,6 +1,6 @@
 <div class="bg">
     <ng-container *ngIf="isLoading">
-        <div class="ui segment">
+        <!-- <div class="ui segment">
             <div class="ui active inverted dimmer">
                 <div class="ui large text loader">იტვირთება</div>
             </div>
@@ -12,6 +12,19 @@
             <p>.</p>
             <p>.</p>
             <p>.</p>
+        </div> -->
+        <div class="loaderbg">
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <h3 class="loadingtext">იტვირთება</h3>
         </div>
     </ng-container>
     <div class="container d-flex justify-content-around">

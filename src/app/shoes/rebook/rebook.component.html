@@ -1,148 +1,48 @@
-<div class="item-container">
-    <div class="items">
-        <div class="item">
-            <img src="assets/images/items/reebok/item1.jpg" alt="">
-            <div class="description">
-                <h2>Reebok Flashfilm Trainer</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 130 ₾ &nbsp; წელი 2019</b></p>
+<div class="bg">
+    <ng-container *ngIf="isLoading">
+        <!-- <div class="ui segment">
+            <div class="ui active inverted dimmer">
+                <div class="ui large text loader">იტვირთება</div>
             </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+        </div> -->
+        <div class="loaderbg">
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
+            <h3 class="loadingtext">იტვირთება</h3>
         </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item2.jpg" alt="">
-            <div class="description">
-                <h2>Zigwild Trail 6e</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 310 ₾ &nbsp; წელი 2019</b></p>
+    </ng-container>
+    <div class="container d-flex justify-content-around">
+        <div class="row ">
+            <div class=".col-6 .col-md-4 item" *ngFor="let boots of listOfBoots">
+                <img [src]="boots.path" class='image' alt="">
+                <div class="description">
+                    <h2 style="font-family: 'Fondamento', cursive; font-size: 21px;">{{ boots.model }}</h2>
+                    <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
+                        <b>ფასი {{ boots.price }} ₾ &nbsp; წელი {{ boots.year }} </b></p>
+                </div>
+                <div class="btns">
+                    <a href="" class="buy">ყიდვა</a>
+                    <a href="" class="tocart"><i class="cart plus icon"></i></a>
+                </div>
             </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item3.jpg" alt="">
-            <div class="description">
-                <h2>Zig Kinetica Shoes</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 340 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item4.jpg" alt="">
-            <div class="description">
-                <h2>BB 4600 Basketball</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 240 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item5.jpg" alt="">
-            <div class="description">
-                <h2>Reebok Bb Os Mid</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 220 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item6.jpg" alt="">
-            <div class="description">
-                <h2>Club C Revenge Shoes</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 210 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item7.jpg" alt="">
-            <div class="description">
-                <h2>Reebok Crossfit® Grace</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 300 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item8.jpg" alt="">
-            <div class="description">
-                <h2>Zigwild Trail 6e</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 310 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item9.jpg" alt="">
-            <div class="description">
-                <h2>Reebok Club C 85</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 240 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item10.jpg" alt="">
-            <div class="description">
-                <h2>Reebok Flashfilm Trainer</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 130 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item11.jpg" alt="">
-            <div class="description">
-                <h2>reebok classic leathe</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 190 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/reebok/item12.jpg" alt="">
-            <div class="description">
-                <h2>Classic Leather Shoes</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 210 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
+
         </div>
     </div>
+
 </div>

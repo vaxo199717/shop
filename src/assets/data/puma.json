@@ -1,0 +1,74 @@
+[
+    {
+        "model": "Puma X Sophia Webster",
+        "price": "355",
+        "year": "2020",
+        "path": "assets/images/items/puma/item1.jpg"
+    },
+    {
+        "model": "Puma Cell Endura White",
+        "price": "330",
+        "year": "2019",
+        "path": "assets/images/items/puma/item2.jpg"
+    },
+    {
+        "model": "CELL Stellar (Women)",
+        "price": "180",
+        "year": "2020",
+        "path": "assets/images/items/puma/item3.jpg"
+    },
+    {
+        "model": "Puma RS-0 Lapis Blue",
+        "price": "420",
+        "year": "2020",
+        "path": "assets/images/items/puma/item4.jpg"
+    },
+    {
+        "model": "Puma RS-100 Ader Error",
+        "price": "440",
+        "year": "2019",
+        "path": "assets/images/items/puma/item5.jpg"
+    },
+    {
+        "model": "RS-X Midtop Utility Burt",
+        "price": "430",
+        "year": "2019",
+        "path": "assets/images/items/puma/item6.jpg"
+    },
+    {
+        "model": "Suede Heart EP 366922",
+        "price": "85",
+        "year": "2019",
+        "path": "assets/images/items/puma/item7.jpg"
+    },
+    {
+        "model": "Puma RS-X Toys White",
+        "price": "640",
+        "year": "2019",
+        "path": "assets/images/items/puma/item8.jpg"
+    },
+    {
+        "model": "Puma RS-100 Ader Error",
+        "price": "640",
+        "year": "2020",
+        "path": "assets/images/items/puma/item9.jpg"
+    },
+    {
+        "model": "ST Runner v2 Mesh",
+        "price": "70",
+        "year": "2019",
+        "path": "assets/images/items/puma/item10.jpg"
+    },
+    {
+        "model": "Sky Modern Basketball",
+        "price": "390",
+        "year": "2020",
+        "path": "assets/images/items/puma/item11.jpg"
+    },
+    {
+        "model": "Time 4 Change Basket",
+        "price": "190",
+        "year": "2019",
+        "path": "assets/images/items/puma/item12.jpg"
+    }
+]

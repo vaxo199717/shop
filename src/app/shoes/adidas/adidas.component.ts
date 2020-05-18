@@ -23,7 +23,7 @@ export class AdidasComponent implements OnInit {
     this.mainService
       .fetchAdidasProducts()
       .pipe(
-        delay(1000)
+        delay(1500)
       )
       .subscribe(data => { this.isLoading = false; this.listOfBoots = data; this.data = data });
 

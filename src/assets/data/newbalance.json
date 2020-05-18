@@ -1,0 +1,74 @@
+[
+    {
+        "model": "New Balance 247",
+        "price": "130",
+        "year": "2018",
+        "path": "assets/images/items/newbalance/item1.jpg"
+    },
+    {
+        "model": "X Bodega 998",
+        "price": "2019",
+        "year": "150",
+        "path": "assets/images/items/newbalance/item2.jpg"
+    },
+    {
+        "model": "New Balance 827",
+        "price": "650",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item3.jpg"
+    },
+    {
+        "model": "New Balance 850",
+        "price": "290",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item4.jpg"
+    },
+    {
+        "model": "New Balance 1300",
+        "price": "530",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item5.jpg"
+    },
+    {
+        "model": "New Balance 860v10",
+        "price": "580",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item6.jpg"
+    },
+    {
+        "model": "New Balance 860 Woman",
+        "price": "420",
+        "year": "2020",
+        "path": "assets/images/items/newbalance/item7.jpg"
+    },
+    {
+        "model": "Fresh Foam Hierro v4",
+        "price": "280",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item8.jpg"
+    },
+    {
+        "model": "New Balance M1530",
+        "price": "2020",
+        "year": "320",
+        "path": "assets/images/items/newbalance/item9.jpg"
+    },
+    {
+        "model": "New Balance MS997",
+        "price": "450",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item10.jpg"
+    },
+    {
+        "model": "Fresh Foam Roav Athletic",
+        "price": "180",
+        "year": "2020",
+        "path": "assets/images/items/newbalance/item11.jpg"
+    },
+    {
+        "model": "New Balance Numeric420",
+        "price": "240",
+        "year": "2020",
+        "path": "assets/images/items/newbalance/item12.jpg"
+    }
+]

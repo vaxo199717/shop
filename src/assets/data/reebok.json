@@ -1,0 +1,74 @@
+[
+    {
+        "model": "Reebok Flashfilm Trainer",
+        "price": "130",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item1.jpg"
+    },
+    {
+        "model": "Zigwild Trail 6e",
+        "price": "310",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item2.jpg"
+    },
+    {
+        "model": "Zig Kinetica Shoes",
+        "price": "340",
+        "year": "2020",
+        "path": "assets/images/items/reebok/item3.jpg"
+    },
+    {
+        "model": "BB 4600 Basketball",
+        "price": "240",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item4.jpg"
+    },
+    {
+        "model": "Reebok Bb Os Mid",
+        "price": "220",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item5.jpg"
+    },
+    {
+        "model": "Club C Revenge Shoes",
+        "price": "210",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item6.jpg"
+    },
+    {
+        "model": "Reebok Crossfit® Grace",
+        "price": "300",
+        "year": "2020",
+        "path": "assets/images/items/reebok/item7.jpg"
+    },
+    {
+        "model": "Zigwild Trail 6e",
+        "price": "310",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item8.jpg"
+    },
+    {
+        "model": "Reebok Club C 85",
+        "price": "240",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item9.jpg"
+    },
+    {
+        "model": "Reebok Flashfilm Trainer",
+        "price": "130",
+        "year": "2020",
+        "path": "assets/images/items/reebok/item10.jpg"
+    },
+    {
+        "model": "reebok classic leathe",
+        "price": "190",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item11.jpg"
+    },
+    {
+        "model": "Classic Leather Shoes",
+        "price": "210",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item12.jpg"
+    }
+]

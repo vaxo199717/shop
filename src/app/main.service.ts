@@ -12,12 +12,21 @@ export class MainService {
   ) { }
 
   fetchAllProducts(): Observable<any> {
-       return this.httpClient.get('assets/data/all.json');
+    return this.httpClient.get('assets/data/all.json');
   };
   fetchNikeProducts(): Observable<any> {
-      return this.httpClient.get('assets/data/nike.json');
+    return this.httpClient.get('assets/data/nike.json');
   };
-  fetchAdidasProducts(): Observable<any>{
-      return this.httpClient.get('assets/data/adidas.json');
+  fetchAdidasProducts(): Observable<any> {
+    return this.httpClient.get('assets/data/adidas.json');
+  };
+  fetchReebokProducts(): Observable<any> {
+    return this.httpClient.get('assets/data/reebok.json');
+  };
+  fetchPumaProducts(): Observable<any> {
+    return this.httpClient.get('assets/data/puma.json');
+  };
+  fetchNewBalanceProducts(): Observable<any> {
+    return this.httpClient.get('assets/data/newbalance.json');
   };
 }

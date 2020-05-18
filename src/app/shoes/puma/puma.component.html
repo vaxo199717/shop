@@ -1,148 +1,48 @@
-<div class="item-container">
-    <div class="items">
-        <div class="item">
-            <img src="assets/images/items/puma/item1.jpg" alt="">
-            <div class="description">
-                <h2>Puma X Sophia Webster</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 355 ₾ &nbsp; წელი 2020</b></p>
+<div class="bg">
+    <ng-container *ngIf="isLoading">
+        <!-- <div class="ui segment">
+            <div class="ui active inverted dimmer">
+                <div class="ui large text loader">იტვირთება</div>
             </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+            <p>.</p>
+        </div> -->
+        <div class="loaderbg">
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
+            <h3 class="loadingtext">იტვირთება</h3>
         </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item2.jpg" alt="">
-            <div class="description">
-                <h2>Puma Cell Endura White</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 330 ₾ &nbsp; წელი 2020</b></p>
+    </ng-container>
+    <div class="container d-flex justify-content-around">
+        <div class="row ">
+            <div class=".col-6 .col-md-4 item" *ngFor="let boots of listOfBoots">
+                <img [src]="boots.path" class='image' alt="">
+                <div class="description">
+                    <h2 style="font-family: 'Fondamento', cursive; font-size: 21px;">{{ boots.model }}</h2>
+                    <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
+                        <b>ფასი {{ boots.price }} ₾ &nbsp; წელი {{ boots.year }} </b></p>
+                </div>
+                <div class="btns">
+                    <a href="" class="buy">ყიდვა</a>
+                    <a href="" class="tocart"><i class="cart plus icon"></i></a>
+                </div>
             </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item3.jpg" alt="">
-            <div class="description">
-                <h2>CELL Stellar (Women)</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 180 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item4.jpg" alt="">
-            <div class="description">
-                <h2>Puma RS-0 Lapis Blue</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 420 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item5.jpg" alt="">
-            <div class="description">
-                <h2>Puma RS-100 Ader Error</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 440 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item6.jpg" alt="">
-            <div class="description">
-                <h2>RS-X Midtop Utility Burt</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 430 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item7.jpg" alt="">
-            <div class="description">
-                <h2>Suede Heart EP 366922</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 85 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item8.jpg" alt="">
-            <div class="description">
-                <h2>Puma RS-X Toys White</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 640 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item9.jpg" alt="">
-            <div class="description">
-                <h2>Puma RS-100 Ader Error</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 640 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item10.jpg" alt="">
-            <div class="description">
-                <h2>ST Runner v2 Mesh</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 70 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item11.jpg" alt="">
-            <div class="description">
-                <h2>Sky Modern Basketball</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 390 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
-        </div>
-        <div class="item">
-            <img src="assets/images/items/puma/item12.jpg" alt="">
-            <div class="description">
-                <h2>Time 4 Change Basket</h2>
-                <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
-                    <b>ფასი 190 ₾ &nbsp; წელი 2019</b></p>
-            </div>
-            <div class="btns">
-                <a href="" class="buy">ყიდვა</a>
-                <a href="" class="tocart"><i class="cart plus icon"></i></a>
-            </div>
+
         </div>
     </div>
+
 </div>

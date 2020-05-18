@@ -25,7 +25,7 @@ export class NikeComponent implements OnInit {
     this.mainService
     .fetchNikeProducts()
     .pipe(
-      delay(1000)
+      delay(1500)
     )
     .subscribe(data => { this.isLoading = false; this.listOfBoots = data; this.data = data  });
 
