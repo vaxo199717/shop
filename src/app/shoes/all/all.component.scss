@@ -114,9 +114,7 @@
                 animation-name: animatebottom;
                 animation-duration: 1s;
     
-                .image{
-                    width: 260px;
-                }
+
                 .btns{
                     padding-top: 10px;
                     .buy{
@@ -174,6 +172,13 @@
 @media only screen and (min-width: 1200px){
     .container{
         background-color: white;
+        .row{
+          .item{
+            .image{
+              width: 260px;
+            }
+          }
+        }
     }
 }
 @media only screen and (max-width: 1200px){
@@ -190,21 +195,15 @@
     .row{
         .item{
             width: 48%;
-            .image{
-                width: 100%;
-            }
         }
     }
 }
 @media only screen and (max-width: 500px){
-    .row{
-        
-        .item{
-            width: 96%;
-            .image{
-                width: 100%;
-            }
-        }
+  .row{
+    .item{
+        width: 98%;
     }
+  }
 }
+
       
