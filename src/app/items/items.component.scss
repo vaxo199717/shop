@@ -31,3 +31,50 @@
         }
     }
 }
+
+@media only screen and (max-width: 1140px){
+    .content{
+        .menu-container{
+            width: 100%;
+            display:block;
+            .menu2{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                .input{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+@media only screen and (max-width: 1021px){
+    .content{
+        .menu-container{
+            .menu2{
+                a{
+                    text-align: center;
+
+                }
+
+            }
+        }
+    }
+}
+@media only screen and (max-width: 860px){
+    .content{
+        .menu-container{
+            .menu2{
+                display:flex;
+                flex-wrap: wrap;
+                a{
+                    width: 30%;
+                    text-align: left;
+                }
+
+            }
+        }
+    }
+}
+
