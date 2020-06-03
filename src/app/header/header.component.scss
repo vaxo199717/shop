@@ -1,5 +1,5 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-.navbar{
+.main-navbar{
 	width: 100%;
 	background: #000000;
 	box-shadow: rgb(0, 0, 0) 5px 10px 15px 0;
@@ -119,5 +119,27 @@
 				}
 			}
 		}
+	}
+}
+.navbar-dark{
+	color: white !important;
+}
+.navbar{
+	background-color: black !important;
+
+	display: none;
+	.navbar-toggler{
+		color: white !important;
+	}
+	.sneakers{
+		font-size: 40px;
+		text-decoration: none;
+		color: white;
+		font-family: 'Frijole', cursive;
+	}
+}
+@media only screen and (max-width: 775px){
+	.navbar{
+		display: flex;
 	}
 }
