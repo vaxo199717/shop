@@ -2,9 +2,26 @@
     
     .container{
         width: 50%;
-        height: 90vh;
+        height: auto;
         background: rgba(0, 0, 0, 0.904);
         border-radius: 0px 0px 25px 25px;
         padding: 25px;
     }
    
+    @media only screen and (max-width: 1288px){
+        .container{
+            width: 70%;
+        }
+    }
+
+    @media only screen and (max-width: 920px){
+        .container{
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-height: 640px){
+        .container{
+            height: 100vh;
+        }
+    }
