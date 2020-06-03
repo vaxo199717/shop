@@ -13,9 +13,9 @@
             .carousel-caption{
                 
                 .title{
-                    width: 70vw;
-                    font-size: 3vw;
-                    padding:2vw 0;
+                    width: 55vw;
+                    font-size: 2.7vw;
+                    padding:1vw 0;
                     background-color: rgba(0, 0, 0, 0.589);
                     font-family: 'Special Elite', cursive;
                 }
@@ -33,8 +33,8 @@
                     color:white;
                     font-size: 2vw;
                     &:hover{
-                        transform: rotate(20deg);
                         background-color: black;
+                        border-radius: 30px;
                         transition: 1s all;
                     }
 
