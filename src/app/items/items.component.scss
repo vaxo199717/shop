@@ -88,9 +88,38 @@
                 height:auto;
                 
                 a{
-                    text-align: center;
                     width: 50%;
-                    padding:5px 0;
+                    padding:5px 0 5px 60px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .content{
+        .menu-container{
+
+            .menu2{
+
+                
+                a{
+
+                    padding:5px 0 5px 40px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 465px){
+    .content{
+        .menu-container{
+
+            .menu2{
+
+                
+                a{
+
+                    padding:5px 0 5px 0;
                 }
             }
         }
@@ -104,7 +133,7 @@
 
                 
                 a{
-
+                    padding-left: 70px;
                     width: 100%;
 
                 }

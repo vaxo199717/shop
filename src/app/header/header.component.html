@@ -1,4 +1,4 @@
-<!-- <nav class="main-navbar">
+<nav class="main-navbar">
   <div class="menu-content">
     <div class="logo">
       <a class="sneakers" [routerLink]="['/home']" routerLinkActive="router-link-active">sneakers.ge</a>
@@ -33,7 +33,7 @@
       </ul>
     </div>
   </div>
-</nav> -->
+</nav>
 <nav class="navbar navbar-expand-lg navbar-dark">
   <a class="sneakers"[routerLink]="['/home']" routerLinkActive="router-link-active">sneakers.ge</a>
   <button style="outline:none" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,24 +42,23 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['/home']" routerLinkActive="router-link-active">მთავარი <span class="sr-only">(current)</span></a>
-        
+        <a class="nav-link" [routerLink]="['/home']" routerLinkActive="router-link-active">მთავარი <i class="home icon"></i><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           პროდუქტი
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">გოგოს ფეხსაცმელი</a>
-          <a class="dropdown-item" href="#">ბიჭის ფეხსაცმელი</a>
-          <a class="dropdown-item" href="#">ბავშვის ფეხსაცმელი</a>
+          <a class="dropdown-item" href="#">გოგოს ფეხსაცმელი <i class="female icon"></i></a>
+          <a class="dropdown-item" href="#">ბიჭის ფეხსაცმელი <i class="male icon"></i></a>
+          <a class="dropdown-item" href="#">ბავშვის ფეხსაცმელი <i class="child icon"></i></a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/about']" routerLinkActive="router-link-active">ჩვენს შესახებ</a>
+        <a class="nav-link" [routerLink]="['/about']" routerLinkActive="router-link-active">ჩვენს შესახებ <i class="info circle icon"></i></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/signin']" routerLinkActive="router-link-active">ავტორიზაცია</a>
+        <a class="nav-link" [routerLink]="['/signin']" routerLinkActive="router-link-active">ავტორიზაცია<i class="user circle icon"></i></a>
       </li>
      
     </ul>

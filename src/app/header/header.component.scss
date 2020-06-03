@@ -51,7 +51,7 @@
 						display: inline-block;
 						&:hover .dropdown{
 							display:block;
-							z-index: 1;
+							z-index: 2;
 						}
 						.dropdown{
 							display:none;
@@ -132,13 +132,27 @@
 		color: white !important;
 	}
 	.sneakers{
-		font-size: 40px;
+		font-size: 30px;
 		text-decoration: none;
 		color: white;
 		font-family: 'Frijole', cursive;
 	}
+	.collapse{
+		text-align: center;
+		font-family: "BPG No9", sans-serif;
+		.navbar-nav{
+			.dropdown{
+				.dropdown-menu{
+					text-align: center;
+				}
+			}
+		}
+	}
 }
-@media only screen and (max-width: 775px){
+@media only screen and (max-width: 964px){
+	.main-navbar{
+		display:none;
+	}
 	.navbar{
 		display: flex;
 	}
