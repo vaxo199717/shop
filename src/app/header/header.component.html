@@ -37,7 +37,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
   <a class="sneakers"[routerLink]="['/home']" routerLinkActive="router-link-active">sneakers.ge</a>
   <button style="outline:none" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="list icon"></i>
+    <i class="list ul icon"></i>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
@@ -50,9 +50,9 @@
           პროდუქტი
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">გოგოს ფეხსაცმელი</a>
-          <a class="dropdown-item" href="#">ბიჭის ფეხსაცმელი</a>
-          <a class="dropdown-item" href="#">ბავშვის ფეხსაცმელი</a>
+          <a class="dropdown-item" [routerLink]="['/girl']" routerLinkActive="router-link-active">გოგოს ფეხსაცმელი</a>
+          <a class="dropdown-item" [routerLink]="['/boy']" routerLinkActive="router-link-active">ბიჭის ფეხსაცმელი</a>
+          <a class="dropdown-item" [routerLink]="['/child']" routerLinkActive="router-link-active">ბავშვის ფეხსაცმელი</a>
         </div>
       </li>
       <li class="nav-item">
