@@ -29,4 +29,7 @@ export class MainService {
   fetchNewBalanceProducts(): Observable<any> {
     return this.httpClient.get('assets/data/newbalance.json');
   };
+  fetchWomanProducts(): Observable<any> {
+    return this.httpClient.get('assets/data/woman.json');
+  }
 }

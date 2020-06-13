@@ -1,0 +1,99 @@
+[
+    {
+        "model": "Puma X Sophia Webster",
+        "price": "355",
+        "year": "2020",
+        "path": "assets/images/items/puma/item1.jpg"
+    },
+    {
+        "model": "Fortarun X Running Shoes",
+        "price": "110",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item4.jpg"
+      },
+      {
+        "model": "Club C Revenge Shoes",
+        "price": "210",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item6.jpg"
+      },
+      {
+        "model": "Adidas D.O.N. Issue 1",
+        "price": "190",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item7.jpg"
+      },
+      {
+        "model": "Suede Heart EP 366922",
+        "price": "85",
+        "year": "2019",
+        "path": "assets/images/items/puma/item7.jpg"
+      },
+      {
+        "model": "Reebok Crossfit® Grace",
+        "price": "300",
+        "year": "2020",
+        "path": "assets/images/items/reebok/item7.jpg"
+      },
+      {
+        "model": "New Balance 860 Woman",
+        "price": "420",
+        "year": "2020",
+        "path": "assets/images/items/newbalance/item7.jpg"
+      },
+      {
+        "model": "nike wmns air max 270",
+        "price": "350",
+        "year": "2019",
+        "path": "assets/images/items/nike/item8.jpg"
+      },
+      {
+        "model": "Zigwild Trail 6e",
+        "price": "310",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item8.jpg"
+      },
+      {
+        "model": "nike wmns air max 270",
+        "price": "350",
+        "year": "2019",
+        "path": "assets/images/items/nike/item10.jpg"
+      },
+      {
+        "model": "kids lite racer adapt",
+        "price": "150",
+        "year": "2020",
+        "path": "assets/images/items/adidas/item10.jpg"
+      },
+      {
+        "model": "New Balance MS997",
+        "price": "450",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item10.jpg"
+      },
+      {
+        "model": "reebok classic leathe",
+        "price": "190",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item11.jpg"
+      },
+      {
+        "model": "Fresh Foam Roav Athletic",
+        "price": "180",
+        "year": "2020",
+        "path": "assets/images/items/newbalance/item11.jpg"
+      },
+      {
+        "model": "Adidas Nite Jogger",
+        "price": "345",
+        "year": "2020",
+        "path": "assets/images/items/adidas/item12.jpg"
+      },
+      {
+        "model": "Classic Leather Shoes",
+        "price": "210",
+        "year": "2019",
+        "path": "assets/images/items/reebok/item12.jpg"
+      }
+
+]
