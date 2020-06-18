@@ -3,24 +3,36 @@
       <div class="form-group col-md-6">
         <label for="inputEmail4" class="labelclass">სახელი:</label>
         <input type="text" class="form-control" id="inputEmail4" formControlName="firstName"
-        [ngClass]="{'is-invalid': forms.get('firstName').touched && forms.get('firstName').invalid}">
+        [ngClass]="{'is-invalid': forms.get('firstName').invalid && (forms.get('firstName').touched || forms.get('firstName').dirty)}">
+        <div class="alert alert-danger mt-1" role="alert" *ngIf="forms.get('firstName').invalid && (forms.get('firstName').touched || forms.get('firstName').dirty)">
+          შეიყვანეთ სახელი!!!
+        </div>        
       </div>
       <div class="form-group col-md-6">
         <label for="inputPassword4" class="labelclass">გვარი:</label>
         <input type="text" class="form-control" id="inputPassword4" formControlName="lastName"
-        [ngClass]="{'is-invalid': forms.get('lastName').touched && forms.get('lastName').invalid}">
+        [ngClass]="{'is-invalid': forms.get('lastName').invalid && (forms.get('lastName').touched || forms.get('lastName').dirty)}">
+        <div class="alert alert-danger mt-1" role="alert" *ngIf="forms.get('lastName').invalid && (forms.get('lastName').touched || forms.get('lastName').dirty)">
+          შეიყვანეთ გვარი!!!
+        </div> 
       </div>
     </div>
     <div class="form-row mt-3">
     <div class="form-group col-md-6">
       <label for="inputPassword4" class="labelclass">მობილურის ნომერი ან ელ-ფოსტა:</label>
       <input type="text" class="form-control" id="inputPassword4" formControlName="numOrEmail"
-      [ngClass]="{'is-invalid': forms.get('numOrEmail').touched && forms.get('numOrEmail').invalid}">
+      [ngClass]="{'is-invalid': forms.get('numOrEmail').invalid && (forms.get('numOrEmail').touched || forms.get('numOrEmail').dirty)}">
+      <div class="alert alert-danger mt-1" role="alert" *ngIf="forms.get('numOrEmail').invalid && (forms.get('numOrEmail').touched || forms.get('numOrEmail').dirty)">
+        შეიყვანეთ ნომერი ან ელ-ფოსტა!!!
+      </div> 
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4" class="labelclass">პაროლი:</label>
       <input type="password" class="form-control" id="inputPassword4" formControlName="password"
-      [ngClass]="{'is-invalid': forms.get('password').touched && forms.get('password').invalid}">
+      [ngClass]="{'is-invalid': forms.get('password').invalid && (forms.get('password').touched || forms.get('password').dirty)}">
+      <div class="alert alert-danger mt-1" role="alert" *ngIf="forms.get('password').invalid && (forms.get('password').touched || forms.get('password').dirty)">
+        შეიყვანეთ პაროლი!!!
+      </div> 
     </div>
   </div>
     <div class="form-group col-md-6">
@@ -28,17 +40,17 @@
   </div>
   <div class="form-group col-md-8 d-flex">
       <select class="custom-select mr-sm-1" id="inlineFormCustomSelect" formControlName="birthday"
-      [ngClass]="{'is-invalid': forms.get('birthday').touched && forms.get('birthday').invalid}">
+      [ngClass]="{'is-invalid': forms.get('birthday').invalid && (forms.get('birthday').touched || forms.get('birthday').dirty)}">
         <option selected value="">დღე</option>
           <option *ngFor="let birthday of bday" [value]="birthday">{{birthday}}</option>
         </select>
         <select class="custom-select mr-sm-1" id="inlineFormCustomSelect" formControlName="birthmonth"
-        [ngClass]="{'is-invalid': forms.get('birthmonth').touched && forms.get('birthmonth').invalid}">
+        [ngClass]="{'is-invalid': forms.get('birthmonth').invalid && (forms.get('birthmonth').touched || forms.get('birthmonth').dirty)}">
           <option selected value="">თვე</option>
           <option selected *ngFor="let birthmonth of bmonth" [value]="birthmonth">{{birthmonth}}</option>
         </select>
         <select class="custom-select mr-sm-1" id="inlineFormCustomSelect" formControlName="birthyear"
-        [ngClass]="{'is-invalid': forms.get('birthyear').touched && forms.get('birthyear').invalid}">
+        [ngClass]="{'is-invalid': forms.get('birthyear').invalid && (forms.get('birthyear').touched || forms.get('birthyear').dirty)}">
           <option selected value="">წელი</option>
           <option selected *ngFor="let birthyear of byear" [value]='birthyear'>{{birthyear}}</option>
         </select>

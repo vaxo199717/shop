@@ -28,9 +28,8 @@
               "src/assets"
             ],
             "styles": [
-
-                    "node_modules/semantic-ui-css/semantic.min.css",
-                    "src/styles.scss"
+              "node_modules/semantic-ui-css/semantic.min.css",
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -125,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "shop"
+    }
+  },
+  "defaultProject": "shop",
+  "cli": {
+    "analytics": "8ccfb311-cba2-4133-80d4-acd6da0141ef"
+  }
 }
