@@ -22,6 +22,7 @@ import { SignupuserComponent } from './register/signupuser/signupuser.component'
 import { SigninuserComponent } from './register/signinuser/signinuser.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -45,6 +46,7 @@ import { HttpClientModule } from '@angular/common/http';
     NewbalanceComponent,
     SignupuserComponent,
     SigninuserComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
