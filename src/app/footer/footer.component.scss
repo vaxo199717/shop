@@ -1,0 +1,22 @@
+footer{
+    background-color: black;
+    padding-top:50px;
+    padding-bottom: 50px;
+
+    .footerContent{
+        display:flex;
+        justify-content: space-around;
+        .contactUs{
+            color:white;
+        }
+        .signInUp{
+            display:flex;
+            flex-direction: column;
+            
+            a{
+                color: white; 
+            }
+        }
+    }
+
+}
