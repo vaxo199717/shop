@@ -20,7 +20,7 @@ export class GirlComponent implements OnInit {
 
   ngOnInit(): void {
     this.mainService
-    .fetchAdidasProducts()
+    .fetchWomanProducts()
     .pipe(
       delay(1500)
     )

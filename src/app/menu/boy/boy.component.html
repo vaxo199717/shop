@@ -1,1 +1,55 @@
-<p>boy works!</p>
+<div class="bg">
+    <ng-container *ngIf="isLoading">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="loaderbg ">
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <h3 class="loadingtext">იტვირთება</h3>
+        </div>
+        <!-- <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> -->
+    </ng-container>
+    <div class="container d-flex justify-content-around">
+        <div class="row ">
+            <div class=".col-6 .col-md-4 item" *ngFor="let boots of listOfBoots">
+                <img [src]="boots.path" class='image' alt="">
+                <div class="description">
+                    <h2 style="font-family: 'Fondamento', cursive; font-size: 21px;">{{ boots.model }}</h2>
+                    <p style="font-family: BPG ExtraSquare Mtavruli,sans-serif;font-size: 15px;" class="price">
+                        <b>ფასი {{ boots.price }} ₾ &nbsp; წელი {{ boots.year }} </b></p>
+                </div>
+                <div class="btns">
+                    <a href="" class="buy">ყიდვა</a>
+                    <a href="" class="tocart"><i class="cart plus icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

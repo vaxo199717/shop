@@ -32,4 +32,10 @@ export class MainService {
   fetchWomanProducts(): Observable<any> {
     return this.httpClient.get('assets/data/woman.json');
   }
+  fetchBoyProducts(): Observable<any> {
+    return this.httpClient.get('assets/data/boy.json');
+  }
+  fetchChildProducts(): Observable<any> {
+    return this.httpClient.get('assets/data/child.json');
+  }
 }

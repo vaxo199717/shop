@@ -1,0 +1,80 @@
+[
+    {
+        "model": "X Bodega 998",
+        "price": "2019",
+        "year": "150",
+        "path": "assets/images/items/newbalance/item2.jpg"
+      },
+      {
+        "model": "Nite Jogger Sneakers",
+        "price": "240",
+        "year": "2019",
+        "path": "assets/images/items/adidas/item3.jpg"
+      },
+      {
+        "model": "New Balance 827",
+        "price": "650",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item3.jpg"
+      },
+      {
+        "model": "New Balance 850",
+        "price": "290",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item4.jpg"
+      },
+      {
+        "model": "Puma RS-0 Lapis Blue",
+        "price": "420",
+        "year": "2020",
+        "path": "assets/images/items/puma/item4.jpg"
+      },
+      {
+        "model": "Puma RS-100 Ader Error",
+        "price": "440",
+        "year": "2019",
+        "path": "assets/images/items/puma/item5.jpg"
+      },
+      {
+        "model": "New Balance 1300",
+        "price": "530",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item5.jpg"
+      },
+      {
+        "model": "nike wmns air max 270",
+        "price": "350",
+        "year": "2019",
+        "path": "assets/images/items/nike/item8.jpg"
+      },
+      {
+        "model": "Puma RS-X Toys White",
+        "price": "640",
+        "year": "2019",
+        "path": "assets/images/items/puma/item8.jpg"
+      },
+      {
+        "model": "nike wmns air max 270",
+        "price": "350",
+        "year": "2019",
+        "path": "assets/images/items/nike/item8.jpg"
+      },
+      {
+        "model": "New Balance M1530",
+        "price": "2020",
+        "year": "320",
+        "path": "assets/images/items/newbalance/item9.jpg"
+      },
+      {
+        "model": "New Balance MS997",
+        "price": "450",
+        "year": "2019",
+        "path": "assets/images/items/newbalance/item10.jpg"
+      },
+      {
+        "model": "Fresh Foam Roav Athletic",
+        "price": "180",
+        "year": "2020",
+        "path": "assets/images/items/newbalance/item11.jpg"
+      }
+]

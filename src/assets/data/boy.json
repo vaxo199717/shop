@@ -1,0 +1,266 @@
+[
+    {
+      "model": "Nike Air Max 200",
+      "price": "360",
+      "year": "2019",
+      "path": "assets/images/items/nike/item1.jpg"
+    },
+    {
+      "model": "Adidas Basketball Shoes",
+      "price": "185",
+      "year": "2019",
+      "path": "assets/images/items/adidas/item1.jpg"
+    },
+    {
+      "model": "New Balance 247",
+      "price": "130",
+      "year": "2018",
+      "path": "assets/images/items/newbalance/item1.jpg"
+    },
+    {
+      "model": "Reebok Flashfilm Trainer",
+      "price": "130",
+      "year": "2019",
+      "path": "assets/images/items/reebok/item1.jpg"
+    },
+    {
+      "model": "Nike Air Max 90",
+      "price": "240",
+      "year": "2019",
+      "path": "assets/images/items/nike/item2.jpg"
+    },
+    {
+      "model": "Puma Cell Endura White",
+      "price": "330",
+      "year": "2019",
+      "path": "assets/images/items/puma/item2.jpg"
+    },
+    {
+      "model": "X Bodega 998",
+      "price": "2019",
+      "year": "150",
+      "path": "assets/images/items/newbalance/item2.jpg"
+    },
+    {
+      "model": "Nike Air Force 1'07",
+      "price": "270",
+      "year": "2019",
+      "path": "assets/images/items/nike/item3.jpg"
+    },
+    {
+      "model": "Nite Jogger Sneakers",
+      "price": "240",
+      "year": "2019",
+      "path": "assets/images/items/adidas/item3.jpg"
+    },
+    {
+      "model": "CELL Stellar (Women)",
+      "price": "180",
+      "year": "2020",
+      "path": "assets/images/items/puma/item3.jpg"
+    },
+    {
+      "model": "Zig Kinetica Shoes",
+      "price": "340",
+      "year": "2020",
+      "path": "assets/images/items/reebok/item3.jpg"
+    },
+    {
+      "model": "New Balance 827",
+      "price": "650",
+      "year": "2019",
+      "path": "assets/images/items/newbalance/item3.jpg"
+    },
+    {
+      "model": "Nike Air Jordan 1",
+      "price": "270",
+      "year": "2020",
+      "path": "assets/images/items/nike/item4.jpg"
+    },
+    {
+      "model": "Puma RS-0 Lapis Blue",
+      "price": "420",
+      "year": "2020",
+      "path": "assets/images/items/puma/item4.jpg"
+    },
+    {
+      "model": "BB 4600 Basketball",
+      "price": "240",
+      "year": "2019",
+      "path": "assets/images/items/reebok/item4.jpg"
+    },
+    {
+      "model": "New Balance 850",
+      "price": "290",
+      "year": "2019",
+      "path": "assets/images/items/newbalance/item4.jpg"
+    },
+    {
+      "model": "Nike Air More Uptempo",
+      "price": "480",
+      "year": "2020",
+      "path": "assets/images/items/nike/item5.jpg"
+    },
+    {
+      "model": "Adidas Stan Smith",
+      "price": "235",
+      "year": "2020",
+      "path": "assets/images/items/adidas/item5.jpg"
+    },
+    {
+      "model": "Puma RS-100 Ader Error",
+      "price": "440",
+      "year": "2019",
+      "path": "assets/images/items/puma/item5.jpg"
+    },
+    {
+      "model": "Reebok Bb Os Mid",
+      "price": "220",
+      "year": "2019",
+      "path": "assets/images/items/reebok/item5.jpg"
+    },
+    {
+      "model": "New Balance 1300",
+      "price": "530",
+      "year": "2019",
+      "path": "assets/images/items/newbalance/item5.jpg"
+    },
+    {
+      "model": "Nike Air Max 270 White",
+      "price": "420",
+      "year": "2020",
+      "path": "assets/images/items/nike/item6.jpg"
+    },
+    {
+      "model": "HU Pharrell Human Race",
+      "price": "830",
+      "year": "2019",
+      "path": "assets/images/items/adidas/item6.jpg"
+    },
+    {
+      "model": "RS-X Midtop Utility Burt",
+      "price": "430",
+      "year": "2019",
+      "path": "assets/images/items/puma/item6.jpg"
+    },
+    {
+      "model": "New Balance 860v10",
+      "price": "580",
+      "year": "2019",
+      "path": "assets/images/items/newbalance/item6.jpg"
+    },
+    {
+      "model": "Air Max 97 Off-White",
+      "price": "1250",
+      "year": "2019",
+      "path": "assets/images/items/nike/item7.jpg"
+    },
+    {
+      "model": "White Mountaineering",
+      "price": "355",
+      "year": "2020",
+      "path": "assets/images/items/adidas/item8.jpg"
+    },
+    {
+      "model": "Puma RS-X Toys White",
+      "price": "640",
+      "year": "2019",
+      "path": "assets/images/items/puma/item8.jpg"
+    },
+    {
+      "model": "Zigwild Trail 6e",
+      "price": "310",
+      "year": "2019",
+      "path": "assets/images/items/reebok/item8.jpg"
+    },
+    {
+      "model": "Fresh Foam Hierro v4",
+      "price": "280",
+      "year": "2019",
+      "path": "assets/images/items/newbalance/item8.jpg"
+    },
+    {
+      "model": "Air Force 1'07 Grey",
+      "price": "430",
+      "year": "2020",
+      "path": "assets/images/items/nike/item9.jpg"
+    },
+    {
+      "model": "Pharell Williams V2",
+      "price": "950",
+      "year": "2019",
+      "path": "assets/images/items/adidas/item9.jpg"
+    },
+    {
+      "model": "Puma RS-100 Ader Error",
+      "price": "640",
+      "year": "2020",
+      "path": "assets/images/items/puma/item9.jpg"
+    },
+    {
+      "model": "Reebok Club C 85",
+      "price": "240",
+      "year": "2019",
+      "path": "assets/images/items/reebok/item9.jpg"
+    },
+    {
+      "model": "New Balance M1530",
+      "price": "2020",
+      "year": "320",
+      "path": "assets/images/items/newbalance/item9.jpg"
+    },
+    {
+      "model": "ST Runner v2 Mesh",
+      "price": "70",
+      "year": "2019",
+      "path": "assets/images/items/puma/item10.jpg"
+    },
+    {
+      "model": "Reebok Flashfilm Trainer",
+      "price": "130",
+      "year": "2020",
+      "path": "assets/images/items/reebok/item10.jpg"
+    },
+    {
+      "model": "Nike Air Jordan 1 Retro",
+      "price": "370",
+      "year": "2020",
+      "path": "assets/images/items/nike/item11.jpg"
+    },
+    {
+      "model": "Adidas Continental 80",
+      "price": "320",
+      "year": "2019",
+      "path": "assets/images/items/adidas/item11.jpg"
+    },
+    {
+      "model": "Sky Modern Basketball",
+      "price": "390",
+      "year": "2020",
+      "path": "assets/images/items/puma/item11.jpg"
+    },
+    {
+      "model": "Air Force 1 Just Do It",
+      "price": "195",
+      "year": "2019",
+      "path": "assets/images/items/nike/item12.jpg"
+    },
+    {
+      "model": "Adidas Nite Jogger",
+      "price": "345",
+      "year": "2020",
+      "path": "assets/images/items/adidas/item12.jpg"
+    },
+    {
+      "model": "Time 4 Change Basket",
+      "price": "190",
+      "year": "2019",
+      "path": "assets/images/items/puma/item12.jpg"
+    },
+    {
+      "model": "New Balance Numeric420",
+      "price": "240",
+      "year": "2020",
+      "path": "assets/images/items/newbalance/item12.jpg"
+    }
+  ]
